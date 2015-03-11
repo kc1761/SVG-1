@@ -10,4 +10,7 @@ Musical Instruments and Notes
 
 SVG Project for Drawing on the Web Class Project
 
-[Online Animated Preview] (http://i6.cims.nyu.edu/~ag3480/380/svg/)
+Katherine's Edit on Amy's Project:
+- All instruments rotate along its own axis
+- All music notes turn magenta when active
+

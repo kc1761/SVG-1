@@ -39,6 +39,7 @@
       .st19{fill:#515151;}
       .st20{fill:#824809;}
       .st21{fill:#C66400;}
+      
       #container {
         width: 960px;
         height: 100%;
@@ -49,51 +50,151 @@
         position: absolute;
         top: 50%;
         margin-top: -280px;
+        transition: all 1s ease 250ms;
+        -webkit-transition: all 1s ease 250ms;
       }
+      
+      #piano:hover{
+      	position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+      }
+      
+      #violin:hover{
+      	position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+      }
+      
+      #guitar:hover{
+      	position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+      }
+            
       #note1:hover {
         fill: red;
         opacity: .9;
         filter: url(#blur);
+        position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
       }
       #note2:hover {
         fill: orange;
         opacity: .9;
         filter: url(#blur);
+        position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
       }
       #note3:hover {
         fill: yellow;
         opacity: .9;
         filter: url(#blur);
+        position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
       }
       #note4:hover {
         fill: green;
         opacity: .9;
         filter: url(#blur);
+        position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
       }
       #note5:hover {
         fill: blue;
         opacity: .9;
         filter: url(#blur);
+        position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
       }
       #note6:hover {
         fill: indigo;
         opacity: .9;
         filter: url(#blur);
+        position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
       }
       #note7:hover {
         fill: violet;
         opacity: .9;
         filter: url(#blur);
+        position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
       }
       #note8:hover {
         fill: grey;
         opacity: .9;
         filter: url(#blur);
+        position: absolute;
+        transform-origin: 55% 60%;
+        -webkit-transform-origin: 55% 60%;
+        animation: spin 1s linear;
+		-webkit-animation: spin 1s linear;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
       }
       #note1:active, #note2:active, #note3:active, #note4:active, #note5:active, #note6:active, #note7:active,
       #note8:active {
-        fill: white;
+        fill: magenta;
       }
+      
+      @keyframes spin {
+      	from {transform: rotate(0deg);}
+      	to {transform: rotate(360deg);}
+      }
+      
+      @-webkit-keyframes spin {
+      	from {-webkit-transform: rotate(0deg);}
+      	to {-webkit-transform: rotate(360deg);}
+      }
+      
     </style>
   </head>
 
